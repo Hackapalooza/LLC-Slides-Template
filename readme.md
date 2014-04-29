@@ -56,6 +56,8 @@ If you are comfortable with Git, commit your changes, and push to a repository o
 
 If you are not comfortable with Git, create a .zip archive of your workshop and send it to whoever you've been in contact with at Ladies Learning Code.
 
+**Note** Please update this readme.md file with information that will be useful to workshop attendees! For example, see the [Introduction to HTML and CSS Repo](https://github.com/ladieslearningcode/LLC-HTML-CSS). If you would like others to contribute to your content, create a contributing.md file in the root directory of your repo, including steps for contributors.
+
 ## Publishing your Slides to gh-pages
 
 To host your slides for free on Github, you can use Github Pages.
