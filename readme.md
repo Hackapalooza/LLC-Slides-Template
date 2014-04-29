@@ -16,30 +16,30 @@ We try to do all our slide decks in HTML, because it's easy for learners to foll
 
 ### Creating Slides
 
-Every `&lt;section>` element creates a new slide. Each slide can contain regular HTML markup, like paragraphs, lists, images, etc.
+Every `<section>` element creates a new slide. Each slide can contain regular HTML markup, like paragraphs, lists, images, etc.
 
 ### Customizing Slides
 
-You can customize slides by adding classes to the `&lt;section>` element. There is a default `center` class which centers content vertically and horizontally.
+You can customize slides by adding classes to the `<section>` element. There is a default `center` class which centers content vertically and horizontally.
 
 ### Adding images
 
 To add images to your slides, save the image to the *content/images* folder then include them as you would in any HTML document.
 
 ```
-&lt;img src="content/images/imagename.png" />
+<img src="content/images/imagename.png" />
 ```
 
 ### Using Markdown
 
-If you would prefer to write your slide content in Markdown, you can add the data attribute `data-markdown` to a `&lt;section` tag.
+If you would prefer to write your slide content in Markdown, you can add the data attribute `data-markdown` to a `<section` tag.
 
 ```
-&lt;section data-markdown>
+<section data-markdown>
 
   ## Markdown content
 
-&lt;/section>
+</section>
 ```
 
 ### Customizing CSS
