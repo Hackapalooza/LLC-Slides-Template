@@ -12,107 +12,55 @@ pre code {
   color: white;
 }
 
-pre .tag {
-  color: white;
+.tag:nth-child(2) {
+  color: #fff;
 }
 
-pre .keyword,
-pre .css .class,
-pre .css .id,
-pre .lisp .title,
-pre .nginx .title,
-pre .request,
-pre .status,
-pre .clojure .attribute {
+/* pink */
+.tag .title,
+.css .tag {
+  color: #F92772;
+}
+
+/* green */
+.tag .attribute,
+.css .class,
+.css .id,
+.css .pseudo,
+.function .title  {
   color: #A6E22D;
 }
 
-pre .django .template_tag,
-pre .django .variable,
-pre .django .filter .argument {
-  color: #DCDCDC;
+/* yellow */
+.tag .value,
+.string {
+  color: #E6DB74;
 }
 
-pre .number,
-pre .date {
-  color: #8CD0D3;
+/* blue */
+.rule .attribute,
+.tag .value,
+.rule .value,
+.keyword {
+  color: #66D9EF;
 }
 
-pre .dos .envvar,
-pre .dos .stream,
-pre .variable,
-pre .apache .sqbracket {
-  color: #EFDCBC;
+/* purple */
+.number,
+.literal,
+.rule .value .hexcolor {
+  color: #AE81FF;
 }
 
-pre .dos .flow,
-pre .diff .change,
-pre .python .exception,
-pre .python .built_in,
-pre .literal,
-pre .tex .special {
-  color: #EFEFAF;
+/* orange */
+.value .function,
+.important,
+.function .params {
+  color: #FD9720;
 }
 
-pre .diff .chunk,
-pre .subst {
-  color: #8F8F8F;
-}
+/* grey */
 
-pre .dos .keyword,
-pre .python .decorator,
-pre .title,
-pre .haskell .type,
-pre .diff .header,
-pre .ruby .class .parent,
-pre .apache .tag,
-pre .nginx .built_in,
-pre .tex .command,
-pre .prompt {
-    color: #F92772;
-}
-
-pre .dos .winutils,
-pre .ruby .symbol,
-pre .ruby .symbol .string,
-pre .ruby .string {
-  color: #DCA3A3;
-}
-
-pre .diff .deletion,
-pre .string,
-pre .tag .value,
-pre .preprocessor,
-pre .built_in,
-pre .sql .aggregate,
-pre .javadoc,
-pre .smalltalk .class,
-pre .smalltalk .localvars,
-pre .smalltalk .array,
-pre .css .rules .value,
-pre .attr_selector,
-pre .pseudo,
-pre .apache .cbracket,
-pre .tex .formula {
-  color: #A6E22D;
-}
-
-pre .shebang,
-pre .diff .addition,
-pre .comment,
-pre .java .annotation,
-pre .template_comment,
-pre .pi,
-pre .doctype {
-  color: #7F9F7F;
-}
-
-pre .coffeescript .javascript,
-pre .javascript .xml,
-pre .tex .formula,
-pre .xml .javascript,
-pre .xml .vbscript,
-pre .xml .css,
-pre .xml .cdata {
-  opacity: 0.5;
+.comment {
+  color: #75715E;
 }
