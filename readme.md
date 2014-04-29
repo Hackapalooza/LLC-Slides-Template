@@ -55,3 +55,13 @@ If you will be distributing project/demo files with your workshop, please create
 If you are comfortable with Git, commit your changes, and push to a repository on your own Github account or to the ladieslearningcode organization if you have access.
 
 If you are not comfortable with Git, create a .zip archive of your workshop and send it to whoever you've been in contact with at Ladies Learning Code.
+
+## Publishing your Slides to gh-pages
+
+To host your slides for free on Github, you can use Github Pages.
+
+1. Create a new local branch on your repository called "gh-pages" which contains the same content as your master branch. `git checkout -b gh-pages`
+2. Push your gh-pages branch to github `git push origin gh-pages`
+3. Your slides should then be viewable at username.github.io/repository-name
+
+For example, this demo template is hosted at [tessalt.github.io/LLC-Slides-Template](http://tessalt.github.io/LLC-Slides-Template)
